@@ -1,0 +1,35 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+        "name": "paste_name",
+        "version": "1.0.0",
+        "entryPoint": "paste_name.py",
+        "description": "Rename functions, variables, and fields from the clipboard text in the decompiler view.",
+        "license": "MIT",
+        "idaVersions": ">=9.2",
+        "platforms": [
+            "windows-x86_64",
+            "linux-x86_64",
+            "macos-x86_64",
+            "macos-aarch64"
+        ],
+        "categories": [
+            "api-scripting-and-automation",
+            "ui-ux-and-visualization"
+        ],
+        "keywords": [
+            "rename",
+            "clipboard",
+            "decompiler"
+        ],
+        "urls": {
+            "repository": "https://github.com/milankovo/paste_name"
+        },
+        "authors": [
+            {
+                "name": "Milankovo",
+                "email": "paste_name@noreply.github.com"
+            }
+        ]
+    }
+}
