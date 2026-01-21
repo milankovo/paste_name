@@ -2,7 +2,7 @@
     "IDAMetadataDescriptorVersion": 1,
     "plugin": {
         "name": "paste_name",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "entryPoint": "paste_name.py",
         "description": "Rename functions, variables, and fields from the clipboard text in the decompiler view.",
         "license": "MIT",

@@ -8,7 +8,7 @@ from PySide6.QtWidgets import QApplication
 
 PLUGIN_ID = "milankovo.paste_name"
 PLUGIN_NAME = "Paste Name"
-PLUGIN_VERSION = "1.0.0"
+PLUGIN_VERSION = "1.0.1"
 REPO_URL = "https://github.com/milankovo/paste_name"
 
 logger = logging.getLogger("paste_name")
@@ -171,7 +171,7 @@ class paste_name_action_handler_t(idaapi.action_handler_t):
 
 
 class PastePlugin(idaapi.plugin_t):
-    flags = idaapi.PLUGIN_FIX | idaapi.PLUGIN_HIDE
+    flags = idaapi.PLUGIN_HIDE
     comment = "Paste clipboard text as names in the decompiler view."
     help = "Paste clipboard text as names in the decompiler view."
     wanted_name = "Paste Name"
